@@ -2,7 +2,7 @@ import React from 'react'
 
 const handleClickEvent = (event) => {
     console.log(event);
-    document.getElementById("text").className -= "hidden";
+    document.getElementById("text").innerHTML = "You clicked the button";
 };
 
 function insertText(props) {
@@ -12,7 +12,7 @@ function insertText(props) {
     return (
         <div>
             <button onClick={handleClickEvent}>{props.text}</button>
-            <h2 id="text" className="hidden">Text here</h2>
+            <div id="text"></div>
         </div>
     )
 }

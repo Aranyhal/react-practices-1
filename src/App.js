@@ -1,7 +1,7 @@
 import InsertText from './insertText';
 import './App.css';
 
-const buttonText = "Click me here again";
+const buttonText = "Click me!";
 
 function App() {
   return (
