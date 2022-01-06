@@ -1,11 +1,10 @@
 import React from 'react'
 
 const handleClickEvent = (event) => {
-    console.log(event);
     document.getElementById("text").innerHTML = "You clicked the button";
 };
 
-function insertText(props) {
+function button(props) {
     const {text, text2} = props;
     console.log(text);
     console.log(text2)
@@ -17,4 +16,4 @@ function insertText(props) {
     )
 }
 
-export default insertText;
+export default button;
